@@ -1,6 +1,8 @@
 
 package ciclo_for;
 
+import javax.swing.text.StyledEditorKit;
+
 
 public class Ciclo_For {
 
@@ -12,6 +14,11 @@ public class Ciclo_For {
     for (int i = 0; i <= fin; i++) {
             System.out.println(tabla*i);
         }
+    
+        for (int i = 0; i < 10; i++) {
+            System.out.println("Hola");
+        }
+     system.out.println("Hello Moto");   
     }
     
 }
